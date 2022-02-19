@@ -63,7 +63,7 @@ struct ContentView: View {
                             //.cornerRadius(8)
                     }
                     .frame(width: UIScreen.main.bounds.width / 1.2, height: UIScreen.main.bounds.width / 1.2)
-                    .background(Color.gray)
+                    .background(Color(hue: 0.062, saturation: 0.056, brightness: 0.964))
                     .cornerRadius(8)
                 } else {
                     Image(systemName: "photo")
