@@ -43,7 +43,15 @@ struct ContentView: View {
         NavigationView {
             VStack(alignment: .center){
                 
+                
+                Text("pictha")
+                    .font(.system(size: 40, weight: .semibold, design: .monospaced))
+                   // .font(.largeTitle)
+                   // .fontWeight(.semibold)
+                
+                
                 Spacer()
+                    
                 
                 if let image = viewModel.image {
                     ZStack{
@@ -78,15 +86,24 @@ struct ContentView: View {
                         .cornerRadius(8)
                         .padding()
                 }
+               
 
                 
             }
-            .navigationTitle("Photo Mania")
+           
+            
+//            .navigationTitle("Photo Mania")
+//            .navigationBarTitleDisplayMode(.inline)
+            
+            
             
             
         }
+        
     }
+    
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
